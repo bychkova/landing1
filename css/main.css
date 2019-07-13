@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8c8f94; }
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 45px;
+  text-decoration: none;
+  color: black; }
+  .link img {
+    margin-right: 10px; }
+
+.layout-section {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 100px 0 50px;
+  overflow: hidden;
+  min-width: 1020px; }
+
+.layout-center {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.layout-flex__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.layout-flex__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+header {
+  background-image: url("../img/banner_background.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.header-nav li {
+  margin-right: 30px;
+  list-style: none; }
+
+.header-logo {
+  width: 140px;
+  height: 13px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px; }
+
+.header-help a {
+  margin-left: 30px;
+  color: #8c8f94;
+  text-decoration: none; }
+
+.header-help a:hover {
+  color: black; }
+
+.header-help .cta {
+  width: 165px;
+  background-color: #267df4;
+  color: white; }
+
+.header-help .cta:hover {
+  color: white;
+  background: #034094;
+  transition: .5s ease; }
+
+.header-banner {
+  margin-top: 100px; }
+
+.header-tittle {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px;
+  color: #26272d; }
+
+.header-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.header-link {
+  border: 1px solid black;
+  margin-bottom: 20px; }
+
+.header-link:hover {
+  background: #898a8d;
+  border-color: #898a8d;
+  transition: .5s ease; }

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*width: 175px;*/
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+.link>img{
+    margin-right: 10px;
+}
