@@ -2,11 +2,16 @@ header
     background-image: url('../img/banner_background.jpg')
     background-position: center
     background-size: cover
+    padding: 20px 50px 0 50px
+    max-height: 800px
 
 .header-nav
     li
         margin-right: 30px
         list-style: none
+        color: black
+    li:hover
+        color: rgb(140, 143, 148)
         
 .header-logo
     width: 140px
@@ -15,24 +20,23 @@ header
     left: 50%
     margin-left: -100px
         
-.header-help
-    a
-        margin-left: 30px
+.header-help-link
+    margin-left: 30px
+    color: black
+    &:hover
         color: rgb(140, 143, 148)
-        text-decoration: none
-    a:hover
-        color: black
-    .cta
-        width: 165px
-        background-color: #267df4
-        color: white
-        
-    .cta:hover
+    
+.header-cta
+    background-color: #267df4
+    color: white
+    width: 165px
+    margin-left: 20px
+    &:hover
         color: white
         background: #034094
-        transition: .5s ease
-
+    
 .header-banner
+    width: 80%
     margin-top: 100px
 
 .header-tittle
@@ -42,15 +46,15 @@ header
     
 .header-text
     text-align: center
-    margin-top: 20px
-    margin-bottom: 20px
+    margin-top: 40px
+    margin-bottom: 40px
     
 .header-link
+    color: black
     border: 1px solid black
     margin-bottom: 20px
-    
-.header-link:hover
-    background: #898a8d
-    border-color: #898a8d
-    transition: .5s ease
+    &:hover
+        background: #898a8d
+        border-color: #898a8d
+        transition: .5s ease
 
